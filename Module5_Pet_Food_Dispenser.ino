@@ -54,7 +54,7 @@ void setup() {
  */
  timer = timerBegin(0,80,true);
  timerAttachInterrupt(timer, &onTime, true);
- timerAlarmWrite(timer,10000000,true);  // every 5000000ms or 5s, timer is interrupted.
+ timerAlarmWrite(timer,10000000,true);  // every 10000000ms or 10s, timer is interrupted.
  timerAlarmEnable(timer);
  
 /**
